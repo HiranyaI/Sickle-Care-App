@@ -192,4 +192,6 @@ class HealthBenchmarkController{
     
     
 }
+
+//Export all within the class
 module.exports = new HealthBenchmarkController();

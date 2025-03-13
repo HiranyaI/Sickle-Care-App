@@ -86,4 +86,5 @@ class MedicineController {
     
 }
 
+//Export all within the class
 module.exports = new MedicineController();

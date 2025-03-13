@@ -149,6 +149,7 @@ cron.schedule("0 0 * * *", async () => {
 //     await createHealthRecordsAndGenerateReports();
 // });
 
+//Export all within the class
 module.exports = { createHealthRecordsAndGenerateReports };
 
 // Helper function to determine health status

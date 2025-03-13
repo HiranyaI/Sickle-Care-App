@@ -154,4 +154,6 @@ class DailyReportController{
         }
     }
 }
+
+//Export all within the class
 module.exports = new DailyReportController();

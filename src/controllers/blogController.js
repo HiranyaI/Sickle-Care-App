@@ -48,4 +48,5 @@ class BlogController {
     }
 }
 
+//Export all within the class
 module.exports = new BlogController();

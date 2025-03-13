@@ -163,4 +163,6 @@ class DoctorRequestService{
         }
     }
 }
+
+//Export all within the class
 module.exports = new DoctorRequestService();

@@ -80,4 +80,5 @@ class SessionController {
     }
 }
 
+//Export all within the class
 module.exports = new SessionController();

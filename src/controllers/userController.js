@@ -220,4 +220,5 @@ class UserController {
   }
 }
 
+//Export all within the class
 module.exports = new UserController();

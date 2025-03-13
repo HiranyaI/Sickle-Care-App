@@ -31,4 +31,5 @@ class ChatController{
     }
 }
 
+//Export all within the class
 module.exports = new ChatController();

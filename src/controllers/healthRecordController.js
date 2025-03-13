@@ -155,4 +155,5 @@ class HealthRecordController {
     
 }
 
+//Export all within the class
 module.exports = new HealthRecordController();
