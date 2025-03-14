@@ -9,6 +9,7 @@ blogRouter.get('/', (req, res) => {
 blogRouter.post('/', blogController.createBlog);
 
 blogRouter.get('/find/blogId', blogController.getBlogByBlogId);
+
 blogRouter.get('/findall', blogController.getAllBlogs);
 
 blogRouter.put('/update/blogId', blogController.updateBlog);
