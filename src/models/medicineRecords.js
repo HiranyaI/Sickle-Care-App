@@ -25,4 +25,5 @@ const MedicineSchema = new mongoose.Schema({
   }
 }, { timestamps: true });
 
+//Export all within the class
 module.exports = mongoose.model('Medicine', MedicineSchema);

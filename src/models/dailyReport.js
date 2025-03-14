@@ -79,4 +79,5 @@ const dailyReportSchema = new mongoose.Schema({
     
 });
 
+//Export all within the class
 module.exports = mongoose.model('DailyReport',dailyReportSchema)

@@ -106,4 +106,5 @@ const healthRecordSchema = new mongoose.Schema({
 
 const HealthRecord = mongoose.model('HealthRecord', healthRecordSchema);
 
+//Export all within the class
 module.exports = HealthRecord;

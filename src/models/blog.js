@@ -45,4 +45,5 @@ timestamps: true
 
 const Blog = mongoose.model("Blog", blogSchema);
 
+//Export all within the class
 module.exports = Blog;

@@ -26,4 +26,6 @@ const sessionSchema = new mongoose.Schema({
         type: String
     }
 });
+
+//Export all within the class
 module.exports = mongoose.model("Session", sessionSchema);

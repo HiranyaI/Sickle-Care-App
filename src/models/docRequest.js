@@ -31,4 +31,6 @@ const docRequestSchema = new mongoose.Schema({
     {
     timestamps: true,
 });
+
+//Export all within the class
 module.exports = mongoose.model('DoctorRequest',docRequestSchema);

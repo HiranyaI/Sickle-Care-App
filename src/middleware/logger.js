@@ -13,5 +13,6 @@ const requestLogger = (req, res, next) => {
     next();
   };
   
+  //Export all within the class
   module.exports = requestLogger;
   

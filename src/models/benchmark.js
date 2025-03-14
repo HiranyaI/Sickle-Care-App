@@ -25,4 +25,6 @@ const healthBenchmarkSchema = new mongoose.Schema({
         required: true 
     }
 });
+
+//Export all within the class
 module.exports = mongoose.model('Benchmark', healthBenchmarkSchema);

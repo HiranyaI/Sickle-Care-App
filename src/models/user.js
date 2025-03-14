@@ -84,5 +84,5 @@ const userSchema = new mongoose.Schema(
 
 const User = mongoose.model('User', userSchema);
 
-
+//Export all within the class
 module.exports = User;
